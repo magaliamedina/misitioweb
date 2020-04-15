@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color:white
+}
+
+.textos {
+    color: white;
+    padding-top: 5px;
+}
+
+#contenedor {
+    background-color: white;
+}
+
+#cabecera {
+    background-color: #424242;
+    height: 100px;
+}
+
+#marca {
+    background-color:#424242;
+}
+
+#botonera_servicios ul li a {
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+#botonera_servicios ul li a:hover {
+    background-color: white;
+    color: #424242;
+}
+
+#contenido {
+    background-color:  #606061;
+}
+
+#carrusel {
+    background-color: #606061;
+}
+
+@media all and (max-width: 599px) {
+.carousel-item {
+    height: 45vh; }
+}
+
+@media all and (min-width: 1024px) {
+    .carousel-item {
+        height: 100vh; }
+}
+
+@media all and (min-width: 600px) and (max-width:1023px) {
+    .carousel-item {
+        height: 80vh; }
+}
+
+#pie {
+    background-color: black;
+}
+
+#pie2 p {
+    float: right;
+    padding-right: 10px;
+    padding-top: 17px;
+}
+
+a span {
+    color: white;
+    font-size: 20px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+

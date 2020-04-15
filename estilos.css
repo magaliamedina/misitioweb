@@ -1,0 +1,596 @@
+body {
+  /*font-family: poppins;  */
+  
+@font-face {
+  font-family: Roboto Th;
+  src:url(roboto/roboto.eot); /* .oet (Embeded Open Type) es el mas recomendado */
+}
+}
+
+
+header {
+  width: 960px;
+  height: 150px;
+  background-color: #424242;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+}
+
+#marca {
+  width: 280px;
+  height: 80px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Roboto;
+}
+
+#bienvenida {
+  width: 200px;
+  height: 80px;
+  padding-left: 20px;
+  float: right;
+}
+
+/*
+#juego {
+  width: 70px;
+  height: 70px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+#juego a{
+  color:red;
+}*/
+
+#botonera {
+  width: 450px;
+  height: 70px;
+  clear: both;
+  float: right;
+}
+
+#botonera ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#botonera ul li {
+  display: inline;
+}
+
+#botonera ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px 22px; /*arriba y abajo ; izquierda y derecha*/
+  border-radius: 10px 10px 10px 10px;
+}
+
+#botonera ul li a:hover {
+  background-color: white;
+  color: #424242;
+}
+
+#inicio {
+  width: 960px;
+  height: 600px;
+  background: #424242;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+}
+
+#fondo {
+  width: 960px;
+  height: 410px;
+  background-image: url(imagenes/fondo.jpg);
+  background-size: cover; /*ajusta la imagen al tamaño de la caja. sirve en el responsive*/
+}
+
+#caja2 {
+  width: 960px;
+  height: 190px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box; /*se mantenga la estructura con el texto */
+  background-color: white;
+}
+
+#caja2 p {
+  margin: 0;
+  text-align: justify;
+}
+
+#acerca_de {
+  width: 960px;
+  height: 600px;  
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(imagenes/sobremi.jpg);
+  background-size: cover;
+}
+
+pre {
+  font: oblique bold 120% cursive;
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+#sobre_mi {
+  width: 450px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 50px;
+  float: left;
+}
+
+#servicios {
+  width: 960px;
+  height: 600px;
+  background-color: #424242;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+
+  font-family: Roboto;
+}
+
+#servicios h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color:white;
+  padding-top: 40px;
+}
+
+#servicios p{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+#servicios img {
+  width: 40px;
+  height: 40px;
+}
+
+
+#fotoLanding{
+  width: 150px;
+  height: 150px;
+  float: left;  
+  margin-left: 110px;
+  margin-top: 50px;
+  background-image: url(imagenes/iconos/landing.png);
+  background-size: cover;
+  background-color: white;
+}
+
+#fotoOne{
+  width: 150px;
+  height: 150px;
+  float: left;  
+  margin-left: 150px;
+  margin-top: 50px;
+  background-image: url(imagenes/iconos/onepage.png);
+  background-size: cover;
+  background-color: white;
+}
+
+#fotoEcommerce{
+  width: 150px;
+  height: 150px;
+  float: left;  
+  margin-left: 140px;
+  margin-top: 50px;
+  background-image: url(imagenes/iconos/ecommerce.png);
+  background-size: cover;
+  background-color: white;
+}
+
+#landingPage {
+  width: 240px;
+  height: 210px;
+  margin-top: 50px;
+ margin-left: 60px;
+ float: left;
+}
+
+#onePage {
+  width: 240px;
+  height: 210px;
+  margin-top: 50px;
+  margin-left: 60px;
+  float: left;
+}
+
+#ecommerce {
+  width: 240px;
+  height: 210px;
+  margin-top: 50px;
+  margin-left: 60px;
+  float: left;
+}
+
+#contacto {
+  width: 960px;
+  height: auto; /*600*/
+  background: #424242;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: Roboto;
+  }
+
+  #contacto p{
+    padding-left: 20px;
+  }
+
+/* es el mismo h1 que el de servicios*/
+#contacto h1 {
+font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color:white;
+  padding-top: 40px;
+  
+}
+
+footer {
+  width: 960px;
+  height: 80px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+}
+
+#datos {
+  width: 500px;
+  height: 80px;  
+  float: left;
+  padding-top: 8px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+#datos p{
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+#redes {
+  width: 300px;
+  height: 60px;
+  float: right;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+
+#redes p{
+  float: right;
+  font-size: 13px;
+  color:white;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 10px;
+}
+a span {
+  color: white;
+  font-size: 20px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+
+@media all and (min-width: 600px) and (max-width:1023px) {
+   
+  header {
+    width: 580px;
+  }
+  
+  #marca {
+    width: 200px;
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+
+  
+#botonera {
+  width: 460px;
+}
+
+  #botonera ul li a {
+    font-size: 14px;
+    padding: 25px 25px; /*arriba y abajo ; izquierda y derecha*/    
+  } 
+  
+  #inicio {
+    width: 580px;
+    height: auto;
+
+  }
+  
+  #fondo {
+    width: 580px;
+    background-position: center;
+  }
+  
+  #caja2 {
+    width: 580px;
+    font-size: 14px;
+  }
+    
+  /* falta controlar */
+  #acerca_de {
+    width: 580px;
+    height: auto;  
+    background-color: lightcoral;
+    margin-top: -20px;
+  }
+  
+  pre {
+    margin:0;
+  }
+
+  #sobre_mi {
+    width: 580px;
+    height: 500px;
+    float: none;
+    background-position: center;
+    padding-top: 20px;
+  }
+  
+  #foto {
+    display: none;
+  }
+  
+  #servicios {
+    width: 580px;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  
+  #servicios h1 {
+    /*font-size: 40px;
+    padding-top: 40px; viejo*/
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #fotoLanding{
+    display: none;
+  }
+  
+  #fotoOne{
+   display: none;
+  }
+  
+  #fotoEcommerce{
+    display: none;
+  }
+  
+  #landingPage {
+    width: 460px;
+    height: 150px;
+    /*background-color: grey;*/
+   float: none;
+  }
+  
+  #onePage {
+    width: 460px;
+    height: 150px;
+    /*background-color: blue;*/
+    float: none;
+  }
+  
+  #ecommerce {
+    width: 460px;
+    height: 150px;
+    /*background-color: green;*/
+    float: none;
+  }
+  
+  #contacto {
+    width: 580px;
+    height: 580px;
+  }
+  
+  footer {
+    width: 580px;
+    height: 80px;
+  }
+  
+  #datos {
+    width: 300px;
+  }
+    
+  #redes {
+    width: 280px;
+  }
+  
+
+
+} /* fin de media 600px a 1023px*/
+
+
+@media all and (max-width: 599px) {
+  
+  header {
+    width: 90%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  
+  #marca {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+      
+  #botonera {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin-top: 10px;
+  }
+    
+  #botonera ul li {
+    display: block;
+  }
+  
+  #botonera ul li a {
+    padding: 10px 20px; /*arriba y abajo ; izquierda y derecha*/
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #inicio {
+    width: 90%;
+    height: auto;
+  }
+  
+  #fondo {
+    width: 100%;
+    height: 200px;
+  }
+  
+  #caja2 {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #caja2 h2 {
+    font-size: 18px;
+  }
+
+  #caja2 p {
+    font-size: 15px;
+  }
+
+  #acerca_de {
+    width: 90%;
+    height: auto; 
+    margin-top:-30px; 
+  }
+     
+  pre {
+    font: oblique bold 120% cursive;
+    color: white;
+    font-size: 20px;
+    background-size: cover;
+  }
+  
+  #sobre_mi {
+    width: 100%;
+    height: 500px;
+    float: none;
+    background-position: center;
+    padding-top: 20px;
+  }
+  
+  #foto {
+    display: none;
+    }
+  
+  #servicios {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  
+  #servicios h1 {
+    padding-top: 20px;
+  }
+
+  #fotoLanding {
+    display: none;
+  }
+
+  #fotoOne {
+    display: none;
+  }
+
+  #fotoEcommerce {
+    display: none;
+  }
+      
+  #landingPage {
+    width: 75%;
+    height: 180px;
+    margin-top: 20px;
+    float: none;
+  }
+  
+  #onePage {
+    width: 75%;
+    height: 210px;
+    margin-top: 20px;
+    float: none;
+  }
+  
+  #ecommerce {
+    width: 75%;
+    height: 210px;
+    margin-top: 20px;
+    float: none;
+  }
+  
+  #contacto {
+    width: 90%;
+    height: auto;
+  }
+  
+  footer {
+    width: 90%;
+    height: auto;
+  }
+  
+  #datos {
+    width: 100%;
+    height: auto;  
+    float: none;
+  }
+  
+  #redes {
+    width: 100%;
+    float: none;
+  }
+
+}
